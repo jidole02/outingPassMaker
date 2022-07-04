@@ -8,7 +8,7 @@ const Main = () => {
 
   const checkPsw = () => {
     const psw = pswInputRef.current?.value;
-    if (psw === "fprhwhdk1214") {
+    if (psw === process.env.NEXT_PUBLIC_PIN) {
       router.push("/maker");
     } else {
       alert("비밀번호가 다릅니다.");
