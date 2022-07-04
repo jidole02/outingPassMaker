@@ -93,13 +93,22 @@ export default function maker() {
       <CardWrapper id="htmlArea">
         {isComplete && (
           <WaterMark>
-            절대로
+            절대로 조작 금지
             <br />
-            조작 금지
+            절대로 조작 금지
+            <br /> 절대로 조작 금지
             <br />
-            절대로
+            절대로 조작 금지
             <br />
-            조작 금지
+            절대로 조작 금지
+            <br /> 절대로 조작 금지
+            <br />
+            절대로 조작 금지
+            <br />
+            절대로 조작 금지
+            <br /> 절대로 조작 금지
+            <br />
+            절대로 조작 금지
           </WaterMark>
         )}
         <CardContainer>
@@ -194,11 +203,11 @@ const CardWrapper = styled.div`
 `;
 
 const WaterMark = styled.div`
-  font-size: 100px;
+  font-size: 63px;
   position: absolute;
-  color: #ffada0;
+  color: #ffd2cb;
   font-weight: bold;
-  transform: rotate(10deg);
+  transform: rotate(-10deg);
 `;
 
 const CardContainer = styled.div`
